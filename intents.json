@@ -1,0 +1,41 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day"],
+         "responses": ["Hello, thanks for visiting", "Good to see you again", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye"],
+         "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"]
+        },
+        {"tag": "hours",
+         "patterns": ["What hours are you open?", "What are your hours?", "When are you open?" ],
+         "responses": ["I am 24/7 available"]
+        },
+        {"tag": "schedule",
+         "patterns": ["What is today's schedule of trains" ],
+         "responses": ["hyderabad to mumbai"]
+        },
+        {"tag": "payments",
+         "patterns":["Do you take credit cards?", "Do you accept Mastercard?", "Are you cash only?"] ,
+         "responses": ["We accept VISA, Mastercard and AMEX", "We accept most major credit cards"]
+        },
+        {"tag": "opentoday",
+         "patterns": ["Are you open today?", "When do you open today?", "What are your hours today?"],
+         "responses": ["We're 24/7 available"]
+        },
+        {"tag": "pnr ",
+         "patterns": ["what is my pnr no", "how to check pnr status" ],
+         "responses": ["your pnr details are sent to your registered mobile number"]
+        },
+        {"tag": "book",
+         "patterns": ["how to book ticket","can i buy a new ticket"],
+         "responses": ["go to our website and click buy option"]
+
+        }
+   ]
+}
