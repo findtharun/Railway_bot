@@ -1,0 +1,55 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi"],
+         "responses": ["Hello, thanks for visiting", "Good to see you again", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "end",
+         "patterns": ["goodbye"],
+         "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thank you"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"]
+        },
+        {"tag": "hours",
+         "patterns": ["What hours are you open?" ],
+         "responses": ["I am 24*7 available"]
+        },
+        {"tag": "schedule",
+         "patterns": ["What is today's schedule of trains" ],
+         "responses": ["hyderabad to mumbai" ]
+        },
+        {"tag": "payment accept",
+         "patterns":["What are the payment modes accepted?"], 
+         "responses": ["We accept VISA, Mastercard and AMEX , most major credit cards"]
+        },
+        {"tag": "opentoday",
+         "patterns": ["Are you open today?", "When do you open today?"],
+         "responses": ["We're 24*7 available"]
+        },
+        {"tag": "pnr ",
+         "patterns": [ "how to check pnr status"],
+         "responses": ["your pnr details are sent to your registered mobile number"]
+        },
+         {"tag": "pnr_no ",
+         "patterns": [ " what is my pnr no"],
+         "responses": ["your pnr details are sent to your registered mobile number"]
+        },
+        {"tag": "refund ",
+         "patterns": [ "how to check refund status?"],
+         "responses": ["login to your account , Go to transactions and click refund status in the menu bar"]
+        },
+    {"tag": "cancel",
+         "patterns": [ "how to cancel ticket?"],
+         "responses": ["login to your account , Go to my bookings, click cancel"]
+        },
+        
+        {"tag": "book ticket",
+         "patterns": ["how to book ticket" ],
+         "responses": ["go to our website and click buy option"]
+        }
+       
+         
+   ]
+}
